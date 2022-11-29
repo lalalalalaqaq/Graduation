@@ -1,0 +1,19 @@
+Knife4j url : http://127.0.0.1:8080/doc.html
+h2 console : http://127.0.0.1:8080/h2-console
+durid console : http://127.0.0.1:8080/druid/index.html
+kfk drop : http://43.138.217.93:9000
+lealone doc : https://github.com/lealone/Lealone
+log4j cfg : https://www.baeldung.com/spring-boot-logging
+actuator health : http://127.0.0.1:8080/actuator/health
+actuator info : http://127.0.0.1:8080/actuator/info
+
+
+              _  .-')      ('-.          .-') _                  ('-.
+             ( \( -O )    ( OO ).-.     ( OO ) )               _(  OO)
+ .-'),-----.  ,------.    / . --. / ,--./ ,--,'    ,----.     (,------.
+( OO'  .-.  ' |   /`. '   | \-.  \  |   \ |  |\   '  .-./-')   |  .---'
+/   |  | |  | |  /  | | .-'-'  |  | |    \|  | )  |  |_( O- )  |  |
+\_) |  |\|  | |  |_.' |  \| |_.'  | |  .     |/   |  | .--, \ (|  '--.
+  \ |  | |  | |  .  '.'   |  .-.  | |  |\    |   (|  | '. (_/  |  .--'
+   `'  '-'  ' |  |\  \    |  | |  | |  | \   |    |  '--'  |   |  `---.
+     `-----'  `--' '--'   `--' `--' `--'  `--'     `------'    `------'
