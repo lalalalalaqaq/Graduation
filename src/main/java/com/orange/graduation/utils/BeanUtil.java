@@ -1,4 +1,4 @@
-package com.orange.graduation.util;
+package com.orange.graduation.utils;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
