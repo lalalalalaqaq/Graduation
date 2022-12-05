@@ -12,6 +12,8 @@ import lombok.Getter;
 public enum RespStatus {
     Success("20000","success"),
     Fail("50000","failed"),
+    AuthenticationError("40001","no authentication"),
+    AuthoritiesError("40003","no authorities"),
 
     HTTP_STATUS_200("200", "ok"),
     HTTP_STATUS_400("400", "request error"),

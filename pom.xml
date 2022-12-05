@@ -75,11 +75,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--springboot 权限认证-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
 
         <!--   jwt     -->
         <!-- https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt -->
