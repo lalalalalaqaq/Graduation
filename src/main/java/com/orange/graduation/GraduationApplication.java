@@ -16,7 +16,6 @@ public class GraduationApplication {
 
     public static void main(String[] args) {
         System.setProperty("pagehelper.banner", "false"); // not output pagehelper banner
-        System.setProperty("lealone.jdbc.url", "jdbc:lealone:embed:test"); // mem db lealone close
         SpringApplication.run(GraduationApplication.class, args);
 
     }

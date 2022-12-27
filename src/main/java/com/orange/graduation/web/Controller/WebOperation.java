@@ -1,7 +1,6 @@
 package com.orange.graduation.web.Controller;
 
 import com.github.pagehelper.PageInfo;
-import com.orange.graduation.annotation.JwtValidate;
 import com.orange.graduation.beans.model.dto.User;
 import com.orange.graduation.beans.request.HeartRequest;
 import com.orange.graduation.annotation.BodyParams;

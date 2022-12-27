@@ -6,6 +6,7 @@ lealone doc : https://github.com/lealone/Lealone
 log4j cfg : https://www.baeldung.com/spring-boot-logging
 actuator health : http://127.0.0.1:8080/actuator/health
 actuator info : http://127.0.0.1:8080/actuator/info
+prometheus : http://localhost:8080/actuator/prometheus
 
 
               _  .-')      ('-.          .-') _                  ('-.
