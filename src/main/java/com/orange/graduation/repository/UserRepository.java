@@ -27,7 +27,7 @@ public class UserRepository {
         return userMapper.insert(user);
     }
 
-    @RedisCache(key = "user", seconds = -1)
+//    @RedisCache(key = "user", seconds = -1)
     public PageInfo<User> findAll(Integer page, Integer pageSize) {
         page = (page == null || page <= 0) ? 1 : page;
         pageSize = (pageSize == null || page <= 0) ? 5 : pageSize;
