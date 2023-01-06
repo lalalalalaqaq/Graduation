@@ -15,7 +15,6 @@ public class GraduationApplication {
 
 
     public static void main(String[] args) {
-        System.setProperty("pagehelper.banner", "false"); // not output pagehelper banner
         SpringApplication.run(GraduationApplication.class, args);
 
     }
