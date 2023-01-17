@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.List;
+
 /**
  * @author orange.zhang
  * @date 2022/11/17 19:40
@@ -33,6 +35,11 @@ public interface WebOperation {
     @ApiOperation(value = "findAll")
     @GetMapping("/findAll")
     RespResult<PageInfo<User>> findAll(@RequestParam(required = false) Integer page,
-                                       @RequestParam(required = false) Integer pageSize);
+                                   @RequestParam(required = false) Integer pageSize);
+
+    @ApiOperation(value = "findAll1")
+    @GetMapping("/findAll1")
+    RespResult<List<User>> findAll1(@RequestParam(required = false) Integer page,
+                                   @RequestParam(required = false) Integer pageSize);
 
 }

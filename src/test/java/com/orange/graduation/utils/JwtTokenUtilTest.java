@@ -35,7 +35,7 @@ public class JwtTokenUtilTest {
 
         data2 = jt.parseToken(token);
         String color = data2.get("color").toString();
-
+        // color == red   | color != red
         assertEquals("red", color);
     }
 
